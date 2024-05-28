@@ -1,9 +1,9 @@
 {
-	"name": "synapse-nyctaxi-WorkspaceDefaultStorage",
+	"name": "nyctaxiproject-WorkspaceDefaultStorage",
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"typeProperties": {
-			"url": "https://containertaxi.dfs.core.windows.net"
+			"url": "https://nyctaxiadlsgen2.dfs.core.windows.net"
 		},
 		"type": "AzureBlobFS",
 		"connectVia": {
